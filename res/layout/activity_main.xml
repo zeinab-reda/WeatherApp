@@ -1,0 +1,27 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+     > 
+    
+     <ListView
+         android:id="@+id/listView1"
+         android:layout_width="fill_parent"
+         android:layout_height="410dp"
+         android:background="#664f617c" />
+
+     <TextView
+         android:id="@+id/wLink"
+         android:layout_marginLeft="5dp"
+         android:layout_marginTop="20dp"
+         android:gravity="left"
+         android:layout_marginBottom="10dp"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:autoLink="web"
+   	
+   		 android:text="http://www.worldweatheronline.com/weather-api.aspx" />
+     
+</LinearLayout>
